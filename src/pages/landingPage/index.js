@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import PokeList from "../../component/PokeList";
-import { fetchPokemonByType, fetchPokemons } from "../../services/ApiService";
+import { fetchPokemonByType, fetchPokemons } from "../../services/apiService";
 import Search from "../../component/Search";
 
 const LandingPage = ({ allPokemons, types }) => {
